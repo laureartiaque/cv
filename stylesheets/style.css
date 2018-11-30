@@ -9,8 +9,18 @@ body {
     background-color:  #4a50cd;
 }
 
-p {
+p, li {
     font-size: 1.2rem;
+}
+
+button {
+    border: none;
+    text-decoration: underline;
+    color: #4FF8C6;
+    background-color: #5057e6;
+    padding: 3%;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 /*header*/
@@ -36,15 +46,11 @@ hr {
 /*bio*/
 .bio h2, .expert h2 {
     font-size: 1.4rem;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.1rem;
     font-weight: 800; 
     color:#4FFEC5;
-}
+    margin-bottom: 11%;
 
-.point {
-    font-size: 9rem; 
-    display: block;
-    color:#4FFEC5;
 }
 
 .subhead {
@@ -57,12 +63,6 @@ hr {
     letter-spacing: 0.1rem;
 }
 
-/*clients*/
-/* .customers img {
-    padding: 4.7rem 2.5rem;
-    margin: auto 0;
-} */
-
 .logo-container {
     background-color:#5056d0;
     margin-top: 7rem;
@@ -71,21 +71,107 @@ hr {
 }
 
 /*clients*/
-.expert li {
-    list-style: none;
-
-}
-
 .grid-logos {
     display:grid;
+    align-items: center;
+}
+
+.grid-logos img {
     margin: auto;
+
 }
 
 .bloc-right {
     background-color: #4FFEC5;
 }
 
-.logos {
-    margin-bottom: 10%; 
-    margin-top: 2%;
+.logos1 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2%; 
+    background-color: #5057e6;
+    padding:3.5%;
 }
+
+.logos2 {
+    background-color: #4FF8C6;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom:10.3%;
+    padding:3.5%;
+}
+
+/*expertise*/
+
+.expert {
+    margin-bottom: 12%;
+}
+
+.expert li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+.point {
+    color: #4ffec5 !important;
+    display: block;
+    font-size: 60px;
+    margin: 0;
+    line-height: 9px;
+}
+
+/* challenges */
+.challenges {
+    margin-bottom: 4%;
+    background-color: #4FFEC5;
+    height: 500px;
+    padding-top: 4%;
+}
+
+.challenges h2 {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    font-weight: 800; 
+    color:#4a50cd;
+    margin-bottom: 11%;
+}
+
+/* footer */
+.contact {
+    margin-top: 5%;
+    display: flex;
+}
+
+.mail, .mail:hover {
+    color:#FFFFFF;
+}
+
+.last-footer {
+    font-size: 0.8rem;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.contact .photo {
+    text-align: right;
+}
+
+.made {
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+footer {
+    margin-top: 2%; 
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+}
+
